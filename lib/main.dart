@@ -23,7 +23,7 @@ class _MagicAppState extends State<MagicApp> {
       home: Scaffold(
         backgroundColor: Colors.blue,
         appBar: AppBar(
-          title: const Text("Ask me anything"),
+          title: Center(child: const Text("Ask me anything")),
         ),
         body: Center(
           child: Column(
